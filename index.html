@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+
+    <!-- nav bar script -->
+    <script src="./navbar.js" defer></script>
     <title>Hosting Services</title>
 </head>
 <body>
@@ -14,18 +17,25 @@
             <div class="logo">
                 <img src="./assets/Logo.png" alt="company-logo">
             </div>
-            <div class="nav-list">
-                <ul class="nav-items">
-                    <li class="nav-item"><a href="#">Home</a></li>
-                    <li class="nav-item"><a href="#">Domain</a></li>
-                    <li class="nav-item"><a href="#">Hosting</a></li>
-                    <li class="nav-item"><a href="#">Features</a></li>
-                    <li class="nav-item"><a href="#">Pricing</a></li>
-                    <li class="nav-item"><a href="#">About Us</a></li>
-                </ul>
+            <div class="ham-menu" id="ham-menu">
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
             </div>
-            <div class="nav-button">
-                <button>Register Now</button>
+            <div class="nav-menu">
+                <div class="nav-list">
+                    <ul class="nav-items">
+                        <li class="nav-item"><a href="#">Home</a></li>
+                        <li class="nav-item"><a href="#">Domain</a></li>
+                        <li class="nav-item"><a href="#">Hosting</a></li>
+                        <li class="nav-item"><a href="#">Features</a></li>
+                        <li class="nav-item"><a href="#">Pricing</a></li>
+                        <li class="nav-item"><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="nav-button">
+                    <button>Register Now</button>
+                </div>
             </div>
         </nav>
     </header>
@@ -43,13 +53,13 @@
                 </p>
                 <button class="feature-button">Choose Package</button>
             </div>
-            <div class="feature-image1">
+            <div class="feature-image1 feature-img">
                 <img src="./assets/hosting-image.png" alt="Web Hosting Image">
             </div>
         </div>
 
         <div class="feature-2 feature">
-            <div class="feature-image2">
+            <div class="feature-image2 feature-img">
                 <img src="./assets/quality-image.png" alt="">
             </div>
             <div class="description">
@@ -77,7 +87,7 @@
                 </p>
                 <button class="feature-button">Read More</button>
             </div>
-            <div class="feature-image3">
+            <div class="feature-image3 feature-img">
                 <img src="./assets/technical support illustration-01.svg" alt="technical support illustration">
             </div>
         </div>
